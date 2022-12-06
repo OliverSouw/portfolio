@@ -457,7 +457,7 @@ footer ul {
 
   .card-box:hover ~ .card-box {
     z-index: 1;
-    translate: 350px;
+    translate: 250px;
 }
 
     .card-box img {
