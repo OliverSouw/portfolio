@@ -7,233 +7,238 @@
         <title>Meu Portfólio</title>
 
         <link rel="stylesheet" href="assets/css/style.css">
-
         <script src="https://kit.fontawesome.com/91a37bd298.js" crossorigin="anonymous"></script>
     </head>
     <body>
 
         <header id="menu-home">            
-            <div>
-                <h1 class="name-menu">
-                    <a href="">Oliver Souw</a> 
-                </h1>
-            </div>
-            <div>
-                <nav>
-                    <ul class="list-menu">
-                        <li class="item-menu">
-                            <a href="#menu-home">
-                                <span></span>
-                                <span></span>
-                                <span></span>
-                                <span></span>
-                                Home
-                            </a>
-                        </li>
-                        <li class="item-menu">
-                            <a href="#menu-about">
-                                <span></span>
-                                <span></span>
-                                <span></span>
-                                <span></span>
-                                Sobre
-                            </a>
-                        </li>
-                        <li class="item-menu">
-                            <a href="#menu-contact">
-                                <span></span>
-                                <span></span>
-                                <span></span>
-                                <span></span>
-                                Contato
-                            </a>
-                        </li>
-                    </ul>
-                </nav>
-            </div>
-            <div class="icon-menu-bar">
-                <i class="fa-solid fa-bars"></i>
-            </div>
-
             
-            
+            <div class="header-menu">
+                <div class="name-menu">
+                    <h1>
+                        <a href="">Oliver Souw</a> 
+                    </h1>
+                </div>
+                <div class="menu-options">
+                    <nav>
+                        <ul class="list-menu">
+                            <li class="item-menu">
+                                <a href="#menu-about">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    Sobre
+                                </a>
+                            </li>
+                            <li class="item-menu">
+                                <a href="#menu-projects">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    Projetos
+                                </a>
+                            </li>
+                            <li class="item-menu">
+                                <a href="#footer">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    Contato
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="icon-menu-bar">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+            </div>
+               
         </header>
 
         <main>
-            <section id="main-home">
+            <section id="main-home" class="ligth-left">
                 <div class="border-divider"></div>
-
-                <div class="perfil-about"> 
-                    <div class="main-content">     
-                        <h2 class="title"> Olá ...</h2>
-                        <div class="content">
-                            <div class="content-about">
+                <div class="section-body">
+                    <div class="perfil-about"> 
+                        <div class="content-about">
+                            <div class="content">
                                 <div class="content-text">
                                     Meu nome é Igor, estou iniciando minha jornada <br>
                                     no mundo do desenvolvimento <br>
                                     <strong>. . . Front-End . . .</strong> <br>
                                     E bem vindo ao meu Portfólio!
                                 </div>
-                                <a href="#menu-about" class="btn-title">Me conheça melhor</a>
+                                <!-- Imagem pessoal do Site -->
+                                <div class="card-img">
+                                    <img class="img" src="/assets/img/perfil/perfilCortado.jpeg" alt="">
+                                </div>
                             </div>
-                        </div>                   
-                    </div>
-                    <!-- Imagem pessoal do Site -->
-                    <div class="card-img">
-                        <img class="img" src="/assets/img/perfil/perfilCortado.jpeg" alt="">
+                            <a href="#menu-about" class="btn-title">Me conheça melhor</a>
+                        </div>
                     </div>
                 </div>
             </section>
 
-            <section>
-
-                <div class="about-section">
-                    <div>
-                        <h2 class="title">Sobre Mim</h2>
-                    </div>
-
-                    <div class="about-text">
-                        <p class="content-text">
-                            Oi de novo.. Estou desenvolvendo esta pequena página para demonstrar e <br>
-                            praticar os conteúdos que estou estudando! Tenho 28 anos e decidi migrar de <br>
-                            carreira e encontrei a maravilhosa área do Front-End. Esta página esta sendo <br>
-                            desenvolvida em HTML e CSS, porém sofrerá mudanças de acordo com o que eu for <br>
-                            progredindo! 
-                        </p>
-
-                        <h3 class="learning">
-                            Mas afinal, o que estou aprendendo?
-                        </h3>
-                    </div>
-
-                    <div class="languages">
-
-                        <div class="html-css-js">
-                            <img src="/assets/img/icon/html-css-js.png" alt="">
+            <section id="menu-about" class="dark-left">
+                <div class="border-divider"></div>
+                <div class="section-body">
+                    <div class="about-section">
+                        <div class="section-information">
+                            <h2>Sobre Mim</h2>
                         </div>
+    
+                        <div class="about-text">
+                            <p class="content-text">
+                                Olá .. Estou desenvolvendo esta pequena página para demonstrar e <br>
+                                praticar os conteúdos que estou estudando! Tenho 28 anos e decidi migrar de <br>
+                                carreira e encontrei a maravilhosa área do Front-End. Esta página esta sendo <br>
+                                desenvolvida em HTML e CSS, porém sofrerá mudanças de acordo com o que eu for <br>
+                                progredindo! 
+                            </p>
+                        </div>
+                    </div>
+                </div>               
+            </section>
 
-                        <div class="languages-informations">
-
-                            <div class="what-learning">
-                                <h4>O famoso <br> 
-                                    <strong>HTML, CSS e JavaScript</strong> 
-                                </h4>
+            <section class="ligth-left">
+                <div class="border-divider"></div>
+                <div class="section-body">
+                    <div class="section-learning">
+                        <div class="section-information">
+                            <h2>Mas afinal, o que estou aprendendo?</h2>
+                        </div>
+    
+                        <div class="languages">
+    
+                            <div class="html-css-js">
+                                <img src="/assets/img/icon/html-css-js.png" alt="">
                             </div>
+    
+                            <div >
 
-                            <div>
                                 <ul class="list-language">
                                     <li class="content-item">
                                         <img src="/assets/img/icon/html.png" alt="">
                                         <p class="content-language-text">
-                                            HTML (Linguagem de Marcação de HiperTexto) é o bloco <br>
-                                            de construção mais básico da web. Define o significado <br>
+                                            HTML é o bloco de construção mais 
+                                            básico da web. Define o significado 
                                             e a estrutura do conteúdo da web.
                                         </p>
                                     </li>
                                     <li class="content-item">
                                         <img src="/assets/img/icon/css.png" alt="">
                                         <p class="content-language-text">
-                                            CSS é uma linguagem baseada em regras. Você define <br> 
-                                            regras especificando grupos de estilo que devem ser <br> 
-                                            aplicados para elementos particulares ou grupos de <br>
-                                            elementos na sua página web
+                                            CSS define regras especificando grupos de estilo que devem ser
+                                            aplicados para elementos particulares ou grupos de
+                                            elementos na sua página
                                         </p>
                                     </li>
                                     <li class="content-item">
                                         <img src="/assets/img/icon/js.png" alt="">
                                         <p class="content-language-text">
-                                            JavaScript é uma linguagem de programação que permite <br> 
-                                            a você implementar itens complexos em páginas web
+                                            JavaScript é uma linguagem de programação que permite
+                                            a você implementar itens complexos em páginas web.
                                         </p>
                                     </li>
                                 </ul>
+
                             </div>
                         </div>
-                    </div>                 
+                    </div>                
                 </div>
             </section>
 
-            <section>
+            <section id="menu-projects" class="dark-left">
+                <div class="border-divider"></div>
+                <div class="section-body">
+                    <div class="my-projects">
 
-                <div class="my-projects">
+                        <div class="section-information">
+                            <h2>Meus Projetos</h2>
+                        </div>
 
-                    <h2 class="title">Meus Projetos</h2>
-            
-                    <div class="project-row">
-                        <!-- <a href="https://github.com/OliverSouw/cervejaria-dnc" target="_blank">
-                            <div class="card-box">
-                                <img src="/assets/img/jobs/home.png" alt="">
+                        <div class="section-projects">
+                            <div class="project-row">
+                                <div class="card-box">
+                                    <a href="https://github.com/OliverSouw/cervejaria-dnc" target="_blank">
+                                        <img src="/assets/img/jobs/cervejaria.png" alt="">
+                                    </a>
+                                </div>
+                                <div class="card-box">
+                                    <a href="https://github.com/OliverSouw/Landing-Page-CCXP" target="_blank">
+                                        <img src="/assets/img/jobs/CCXP.png" alt="">
+                                    </a>
+                                </div>
+                                <div class="card-box">
+                                    <a href="https://github.com/OliverSouw/projeto-clone-awax" target="_blank">
+                                        <img src="/assets/img/jobs/awax.png" alt="">
+                                    </a>
+                                </div>
+                                <div class="card-box no-projects">
+                                    <span></span>
+                                </div>
+                                <div class="card-box no-projects">
+                                    <span></span>
+                                </div>
                             </div>
-                        </a> -->
-                        <div class="card-box">
-                            <img src="/assets/img/jobs/home.png" alt="">
-                        </div>
-                        <div class="card-box">
-                            <span></span>
-                        </div>
-                        <div class="card-box">
-                            <span></span>
-                        </div>
-                        <div class="card-box">
-                            <span></span>
-                        </div>
-                        <div class="card-box">
-                            <span></span>
-                        </div>
-                    </div>
-                    <div class="project-row">
-                        <div class="card-box">
-                            <span></span>
-                        </div>
-                        <div class="card-box">
-                            <span></span>
-                        </div>
-                        <div class="card-box">
-                            <span></span>
-                        </div>
-                        <div class="card-box">
-                            <span></span>
-                        </div>
-                        <div class="card-box">
-                            <span></span>
+                            <div class="project-row no-projects">
+                                <div class="card-box">
+                                    <span></span>
+                                </div>
+                                <div class="card-box">
+                                    <span></span>
+                                </div>
+                                <div class="card-box">
+                                    <span></span>
+                                </div>
+                                <div class="card-box">
+                                    <span></span>
+                                </div>
+                                <div class="card-box">
+                                    <span></span>
+                                </div>
+                            </div>
                         </div>
                     </div>
-
                 </div>
-    
             </section>
-
-            <div class="border-divider"></div>
         </main>
+        
+        <div class="border-divider"></div>
 
-        <footer>
-            <div>
+        <footer id="footer">
+            <div class="section-body">
 
-                <nav id="menu-contact">
-                    <ul>
-                        <li>
-                            <a class="footer-link" href="https://www.linkedin.com/in/igor-oliveira-77b805172/" target="_blank">
-                                <img src="/assets/img/icon/linkedin-icon.png" alt="">
-                            </a>
-                        </li>
-                        <li>
-                            <a class="footer-link" href="https://github.com/OliverSouw" target="_blank">
-                                <img src="/assets/img/icon/github-icon.png" alt="">
-                            </a>
-                        </li>
-                        <li>
-                            <a class="footer-link" href="https://www.instagram.com/oliver_souw/" target="_blank">
-                                <img src="/assets/img/icon/instagram-icon.png" alt="">
-                            </a>
-                        </li>
-                    </ul>
-                </nav>
+                <div class="section-footer">
+
+                    <div class="section-footer-text">
+                        <p>Página desenvolvida por <strong>Igor Oliveira</strong></p>
+                        <p>Goiânia-GO</p>
+                    </div>
+
+                    <div class="section-footer-media">
+                        <a class="footer-link" href="https://www.linkedin.com/in/igor-oliveira-77b805172/" target="_blank">
+                            <img src="/assets/img/icon/linkedin-icon.png" alt="">
+                        </a>
+    
+                        <a class="footer-link icon-github" href="https://github.com/OliverSouw" target="_blank">
+                            <img src="/assets/img/icon/github-icon.png" alt="">
+                        </a>
+    
+                        <a class="footer-link" href="https://www.instagram.com/oliver_souw/" target="_blank">
+                            <img src="/assets/img/icon/instagram-icon.png" alt="">
+                        </a>
+                    </div>
+
+                </div>
             </div>
-            
-
         </footer>
 
-       
+        
 
     </body>
 </html>
